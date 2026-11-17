@@ -1,0 +1,21 @@
+{
+  "name": "pinpoint-extension",
+  "version": "1.0.0",
+  "description": "PinPoint Chrome Extension for real-time document annotations",
+  "scripts": {
+    "build": "vite build",
+    "watch": "vite build --watch"
+  },
+  "dependencies": {
+    "@pinpoint/shared": "file:../shared",
+    "preact": "^10.22.0",
+    "socket.io-client": "^4.7.5"
+  },
+  "devDependencies": {
+    "@preact/preset-vite": "^2.8.2",
+    "@types/chrome": "^0.0.268",
+    "@types/node": "^20.12.12",
+    "typescript": "^5.4.5",
+    "vite": "^5.2.11"
+  }
+}
